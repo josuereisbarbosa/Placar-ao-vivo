@@ -1,0 +1,25 @@
+
+body {
+  font-family: sans-serif;
+  background: #fff;
+  color: #000;
+  transition: all 0.3s ease;
+}
+body.dark {
+  background: #121212;
+  color: #fff;
+}
+header, footer {
+  padding: 1rem;
+  background: #007bff;
+  color: white;
+  text-align: center;
+}
+#darkModeToggle {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
